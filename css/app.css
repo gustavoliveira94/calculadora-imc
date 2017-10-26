@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 33.33vh 33.33vh 33.33vh;
+}
+
+small {
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 5vh;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+
+.peso {
+    background-color: #34495e;
+    padding: 1vh 0 1vh 0;
+    align-items: center;    
+}
+
+.peso input {
+    background-color: #34495e;    
+    width: 50vw;
+    margin: 0 25vw 0 25vw;
+    height: 15vh;
+    border: 0;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 10vh;
+    font-weight: 300;
+    text-align: center;
+}
+
+.altura {
+    background-color: #3498db;    
+    padding: 1vh 0 1vh 0;    
+}
+
+.altura input {
+    width: 50vw;
+    margin: 0 25vw 0 25vw;
+    border: 0;
+    height: 15vh;
+    background-color: #3498db;     
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 10vh;
+    font-weight: 300;
+    text-align: center;
+}
+
+.resultado {
+    background-color: #ffffff;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 50vw 50vw ;
+}
+
+.resultado button {
+    width: 60vw;
+    height: 20vh;
+    margin: 5vh 20vw 5vh 20vw;
+    box-shadow: 0 6px 0 #245b3b;
+    border-radius: 4px;
+    background-color: #27ae60;
+    border: 0;
+    color: #ffffff;
+    font-family: Oswald;
+    font-size: 10vh;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.valor {
+    color: #4a4a4a;
+    font-family: Oswald;
+    font-size: 7vh;
+    font-weight: 300;
+    line-height: 59px;
+    text-transform: uppercase;  
+    
+}
+
+.indice {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: #4a4a4a;
+    font-family: Oswald;
+    font-size: 5vh;
+    font-weight: 300;
+    line-height: 59px;
+    text-transform: uppercase;
+}
+
+.indice label {
+    margin: -15px 0 -5px 0;
+}
+
+.voltar {
+    text-align: center;
+}
+
+.voltar img {
+    width: 20%;
+    max-width: 40px;
+}
+
+.voltar a {
+    cursor: pointer;
+}
+
+.esconder {
+    display: none;
+}
